@@ -1,15 +1,20 @@
 # Hub88 Frontend Developer Challenge
+The challenge is to consume open graphql data available at https://countries.trevorblades.com/. 
+You are to consume the countries query
 
-## Task
-- Create a page with a filter and a table.
-- The filter should include only one text input field to filter by country code.
-- The table should include only 2 columns: country name and country code.
-
-Please use typescript and tests in your assignment. Styling is up to you
-
-## Graphql data source and documentation
+```typescript
 graphql url: https://countries.trevorblades.com/
 query name: countries
+```
+
+## Task
+- Create a page with a filter and a table, to present the consumed data
+- The filter should include only one text input field to filter by country code
+- The table should include only 2 columns: `country name` and `country code`
+- Styling is up to you
+- Test your solution
+- Use typescript
+
 
 ### Submission
 - Provide a README.md file with instructions on how to install and run your project
